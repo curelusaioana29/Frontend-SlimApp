@@ -17,7 +17,7 @@ root.render(
     <Provider store={store}>
       <ThemeContextProvider>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename='/SlimMom-Frontend'>
+          <BrowserRouter basename='/Frontend-SlimApp'>
             <App />
           </BrowserRouter>
         </PersistGate>
